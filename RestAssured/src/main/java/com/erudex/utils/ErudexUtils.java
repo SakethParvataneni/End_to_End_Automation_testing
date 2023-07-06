@@ -45,7 +45,8 @@ public class ErudexUtils {
 
 		ObjectMapper objectMapper = new ObjectMapper();
 
-		String json = "";
+      		String json = "";
+                System.out.println("Getting the json object here");
 
 		try {
 			json = objectMapper.writeValueAsString(obj);
